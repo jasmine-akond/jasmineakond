@@ -1,0 +1,14 @@
+# OS junk files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.old
+*.log
+*~
+
+# Design source files (keep local)
+*.psd

@@ -1045,27 +1045,11 @@ body {
 
 .portfolio-card {
   position: sticky;
-  top: 160px;
+  top: var(--sticky-top, 160px);
   transform: none;
   width: 100%;
   max-width: 100%;
-  z-index: 1;
-}
-
-.portfolio-card:nth-child(2) {
-  z-index: 2;
-}
-
-.portfolio-card:nth-child(3) {
-  z-index: 3;
-}
-
-.portfolio-card:nth-child(4) {
-  z-index: 4;
-}
-
-.portfolio-card:nth-child(5) {
-  z-index: 5;
+  z-index: var(--stack-order, 1);
 }
 
 .portfolio-image {
